@@ -1,0 +1,953 @@
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not maConnects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send ptch, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send pConnects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not maConnects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send ptch, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send pConnects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not maConnects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send ptch, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send pConnects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not maConnects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send ptch, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send pConnects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not maConnects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send ptch, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send pConnects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not maConnects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send ptch, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send pConnects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not maConnects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send ptch, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send packets.
+
+Parameters:
+address - the remote address for the socket
+port - the remote port for the socket.
+Throws:
+IllegalArgumentException - if the address is null, or the port is out of range.
+SecurityException - if the caller is not allowed to send datagrams to and receive datagrams from the address and port.
+See Also:
+disconnect(), send(java.net.DatagramPacket), receive(java.net.DatagramPacket)
+Connects the socket to a remote address for this socket. When a socket is connected to a remote address, packets may only be sent to or received from that address. By default a datagram socket is not connected.
+If the remote destination to which the socket is connected does not exist, or is otherwise unreachable, and if an ICMP destination unreachable packet has been received for that address, then a subsequent call to send or receive may throw a PortUnreachableException. Note, there is no guarantee that the exception will be thrown.
+
+A caller's permission to send and receive datagrams to a given host and port are checked at connect time. When a socket is connected, receive and send will not perform any security checks on incoming and outgoing packets, other than matching the packet's and the socket's address and port. On a send operation, if the packet's address is set and the packet's address and the socket's address do not match, an IllegalArgumentException will be thrown. A socket connected to a multicast address may only be used to send p
